@@ -26,11 +26,11 @@ The following installations are preferred:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/im-ukr/Decentralized-Electronic-Medical-Records-DeMR-System.git
+   git clone https://github.com/im-ukr77/DeMR.git
    ```
    Navigate into the project folder:
     ```bash
-   cd Decentralized-Electronic-Medical-Records-DeMR-System
+   cd DeMR
    ```
    And then run these command:
     ```bash
@@ -52,28 +52,14 @@ The following installations are preferred:
    ./network.sh up createChannel -ca -s couchdb
    ./deploymentScript.sh
    ```
-   ### For errors (Skip if no issues; continue from Step 4):
-   If facing any peer binaries issue when starting the network, follow these commands in this directory:
-   ```bash
-   curl -sSL https://bit.ly/2ysbOFE | bash -s
-   ```
-   Note where the peer binary is located using following command, **MODIIFY it according to the project location within your system.**
-   ```bash
-   find ~/BT-Project/Decentralized-Electronic-Medical-Records-DeMR-System -name peer
-   ```
-   Export it to the path based on the location, for example:
-   ```bash
-   export PATH=$PATH:/home/im-ukr/BT-Project/Decentralized-Electronic-Medical-Records-DeMR-System/fabric-samples/test-network/fabric-samples/bin
-   ```
-   Verify the peer version:
-   ```bash
-   peer version
-   ```
-
+   
 6. **After successful execution of step 3, navigate to the backend-combined directory:**
 
    ```bash
    cd backend-combined
+   ```
+   ```bash
+   npm install nodemailer
    ```
 
 7. **Enroll admin, register user, and start the application:**
@@ -92,7 +78,7 @@ The following installations are preferred:
 
    Open a new terminal and run these commands:
    ```bash
-   cd Decentralized-Electronic-Medical-Records-DeMR-System/fabric-samples/test-network/frontend
+   cd DeMR/fabric-samples/test-network/frontend
    python3 -m http.server
    ```
 
@@ -116,7 +102,7 @@ For running again, execute the following commands only as per their respective d
    ```
 To view frontend, open a new terminal and run these commands:
    ```bash
-   cd Decentralized-Electronic-Medical-Records-DeMR-System/fabric-samples/test-network/frontend
+   cd DeMR/fabric-samples/test-network/frontend
    python3 -m http.server
    ```
 ## E. Used:
