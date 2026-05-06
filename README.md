@@ -19,15 +19,15 @@ The following installations are preferred:
 - Docker and WSL extension on Visual Studio Code
 - Docker Desktop (If using WSL2 then ensure that WSL integration with Ubuntu is enabled under Docker desktop settings)
 - Python 3 (for serving frontend via http.server)
-- Node.js and nvm. (Check the versions mentioned at the end of this readme) If not installed already, find the installation commands by clicking [here](https://chatgpt.com/share/67b74041-8574-800e-8f75-ff63f5c3cec0)<br>
+- Node.js and nvm. (Check the versions mentioned at the end of this readme) <br>
 
 (i) **Install NVM (Latest Version)**
  ```bash
-  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
  ```
 <br>(ii) **Reload Shell Configuration**
 ```bash
-   export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
    ```
 <br>Alternatively, restart your terminal or run:
@@ -40,14 +40,14 @@ sudo apt update
 sudo apt install -y libatomic1
    ```
 <br>(iv) **Install the Latest Node.js Version**
-   ```bash
-   nvm install node
+```bash
+nvm install node
    ```
 <br>(v) **Verify Installation**
-   ```bash
-   node -v  # Check Node.js version
-   npm -v   # Check npm version
-   nvm -v   # Check NVM version
+```bash
+node -v  # Check Node.js version
+npm -v   # Check npm version
+nvm -v   # Check NVM version
    ```
    
 ## C. Setup
