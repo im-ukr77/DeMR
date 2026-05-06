@@ -20,7 +20,11 @@ The following installations are preferred:
 - Docker Desktop (If using WSL2 then ensure that WSL integration with Ubuntu is enabled under Docker desktop settings)
 - Python 3 (for serving frontend via http.server)
 - Node.js and nvm. (Check the versions mentioned at the end of this readme) If not installed already, find the installation commands by clicking [here](https://chatgpt.com/share/67b74041-8574-800e-8f75-ff63f5c3cec0)
+(i) **Install NVM (Latest Version)**
 
+   ```bash
+  curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+   ```
 ## C. Setup
 
 1. **Clone the repository:**
