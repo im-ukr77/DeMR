@@ -35,7 +35,6 @@ The following installations are preferred:
 source ~/.bashrc  # or source ~/.zshrc if using Zsh
    ```
 <br>(iii) **Install Required System Library**
-
 ```bash
 sudo apt update
 sudo apt install -y libatomic1
