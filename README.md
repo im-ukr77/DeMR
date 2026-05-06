@@ -21,9 +21,9 @@ The following installations are preferred:
 - Python 3 (for serving frontend via http.server)
 - Node.js and nvm. (Check the versions mentioned at the end of this readme) If not installed already, find the installation commands by clicking [here](https://chatgpt.com/share/67b74041-8574-800e-8f75-ff63f5c3cec0)<br>
 <br>(i) **Install NVM (Latest Version)**
-   ```bash
+ ```bash
   curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
-   ```
+ ```
 <br>(ii) **Reload Shell Configuration**
 ```bash
    export NVM_DIR="$HOME/.nvm"
