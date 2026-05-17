@@ -17,7 +17,7 @@ This repository provides the necessary scripts and configurations for establishi
 The following installations are preferred:
 - Ubuntu 20.04+/ MacOS/ Ubuntu running on WSL2 (For Windows)
 - Docker and WSL extension on Visual Studio Code
-- Docker Desktop (If using WSL2 then ensure that WSL integration with Ubuntu is enabled under Docker desktop settings)
+- Docker Desktop (If using WSL2 then ensure that *WSL integration with Ubuntu* is enabled under Docker desktop settings)
 - Python 3 (for serving frontend via http.server)
 - Node.js and nvm. (Check the versions mentioned at the end of this readme) <br>
 
