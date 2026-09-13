@@ -61,7 +61,7 @@ nvm -v   # Check NVM version
     ```bash
    cd DeMR
    ```
-   And then run these command:
+   And then run these command (one by one):
     ```bash
    curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh
    chmod +x install-fabric.sh
